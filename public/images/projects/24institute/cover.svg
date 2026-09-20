@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="instbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c4a6e" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <filter id="instShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+  <rect width="1200" height="750" fill="url(#instbg)" />
+
+  <!-- Geometric architectural lines -->
+  <g opacity="0.12" stroke="#bae6fd" stroke-width="1">
+    <circle cx="600" cy="375" r="300" fill="none" />
+    <circle cx="600" cy="375" r="450" fill="none" />
+    <line x1="0" y1="375" x2="1200" y2="375" />
+    <line x1="600" y1="0" x2="600" y2="750" />
+  </g>
+
+  <!-- Browser Frame -->
+  <g transform="translate(100, 75)" filter="url(#instShadow)">
+    <rect width="1000" height="600" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1.5" />
+    <rect width="1000" height="46" rx="12" fill="#1e293b" />
+    <rect y="34" width="1000" height="12" fill="#1e293b" />
+    <circle cx="28" cy="23" r="6" fill="#ef4444" />
+    <circle cx="48" cy="23" r="6" fill="#f59e0b" />
+    <circle cx="68" cy="23" r="6" fill="#10b981" />
+    
+    <rect x="250" y="9" width="500" height="28" rx="6" fill="#0f172a" />
+    <text x="500" y="27" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="12" text-anchor="middle">24institute.edu/programs/technology-and-data</text>
+
+    <!-- Top Navigation of mockup -->
+    <rect x="0" y="46" width="1000" height="50" fill="#0f172a" />
+    <line x1="0" y1="96" x2="1000" y2="96" stroke="#1e293b" stroke-width="1" />
+    <text x="40" y="77" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="800" letter-spacing="1">24INSTITUTE</text>
+    <g transform="translate(620, 64)" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#cbd5e1">
+      <text x="0" y="12" fill="#38bdf8" font-weight="600">Curriculum</text>
+      <text x="90" y="12">Bootcamp</text>
+      <text x="170" y="12">Mentors</text>
+      <rect x="250" y="-4" width="90" height="30" rx="6" fill="#0284c7" />
+      <text x="270" y="15" fill="#ffffff" font-weight="600">Register</text>
+    </g>
+
+    <!-- Hero Content -->
+    <g transform="translate(60, 140)">
+      <rect width="110" height="24" rx="12" fill="#0369a1" fill-opacity="0.3" stroke="#38bdf8" stroke-width="1" />
+      <text x="14" y="16" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600">ACADEMIC HUB</text>
+      <text x="0" y="70" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="34" font-weight="800">Upskilling Next-Gen Digital Talent</text>
+      <text x="0" y="105" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="15">Full-stack curriculum, real-world case studies, and structured technical mentorship.</text>
+
+      <!-- Program Cards -->
+      <g transform="translate(0, 150)">
+        <!-- Card 1 -->
+        <rect width="270" height="200" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+        <rect x="20" y="20" width="40" height="40" rx="6" fill="#0284c7" />
+        <text x="20" y="90" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700">Backend Engineering</text>
+        <text x="20" y="115" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Node.js, Express, REST APIs, and relational databases.</text>
+        <rect x="20" y="150" width="90" height="24" rx="4" fill="#0f172a" />
+        <text x="32" y="166" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">12 Modules</text>
+
+        <!-- Card 2 -->
+        <g transform="translate(300, 0)">
+          <rect width="270" height="200" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+          <rect x="20" y="20" width="40" height="40" rx="6" fill="#0d9488" />
+          <text x="20" y="90" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700">Modern Frontend</text>
+          <text x="20" y="115" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">React, TypeScript, component architecture and state management.</text>
+          <rect x="20" y="150" width="90" height="24" rx="4" fill="#0f172a" />
+          <text x="32" y="166" fill="#2dd4bf" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">10 Modules</text>
+        </g>
+
+        <!-- Card 3 -->
+        <g transform="translate(600, 0)">
+          <rect width="270" height="200" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+          <rect x="20" y="20" width="40" height="40" rx="6" fill="#d97706" />
+          <text x="20" y="90" fill="#f8fafc" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700">Database &amp; Cloud</text>
+          <text x="20" y="115" fill="#94a3b8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">PostgreSQL, Prisma, Docker containerization &amp; deployment.</text>
+          <rect x="20" y="150" width="90" height="24" rx="4" fill="#0f172a" />
+          <text x="32" y="166" fill="#fbbf24" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">8 Modules</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

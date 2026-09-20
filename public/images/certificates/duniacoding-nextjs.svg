@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="100%" height="100%">
+  <rect width="800" height="560" fill="#09090b" stroke="#27272a" stroke-width="2" />
+  <rect x="24" y="24" width="752" height="512" fill="none" stroke="#3f3f46" stroke-width="1.5" />
+  <rect x="32" y="32" width="736" height="496" fill="none" stroke="#27272a" stroke-width="1" />
+  
+  <g transform="translate(60, 70)">
+    <rect width="140" height="32" rx="4" fill="#18181b" stroke="#3f3f46" stroke-width="1" />
+    <text x="70" y="21" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" text-anchor="middle">DUNIA CODING</text>
+    
+    <text x="340" y="110" fill="#a1a1aa" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" text-anchor="middle" letter-spacing="2">CERTIFICATE OF ACHIEVEMENT</text>
+    <text x="340" y="150" fill="#d4d4d8" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" text-anchor="middle">This certificate is proudly presented to:</text>
+    
+    <text x="340" y="205" fill="#f4f4f5" font-family="'Plus Jakarta Sans', sans-serif" font-size="28" font-weight="800" text-anchor="middle">FIKHI HAKIM</text>
+    <line x1="140" y1="225" x2="540" y2="225" stroke="#3f3f46" stroke-width="1" />
+    
+    <text x="340" y="260" fill="#a1a1aa" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" text-anchor="middle">For successfully demonstrating proficiency in:</text>
+    <text x="340" y="295" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="700" text-anchor="middle">Basic Next.js &amp; Full-Stack React Architecture</text>
+    
+    <g transform="translate(100, 340)">
+      <text x="0" y="20" fill="#71717a" font-family="'Plus Jakarta Sans', sans-serif" font-size="12">Issued by: Dunia Coding</text>
+      <text x="0" y="40" fill="#71717a" font-family="'JetBrains Mono', monospace" font-size="11">Credential ID: YOUR_CREDENTIAL_ID</text>
+      
+      <g transform="translate(420, -10)">
+        <circle cx="40" cy="30" r="32" fill="#18181b" stroke="#38bdf8" stroke-width="2" />
+        <text x="40" y="34" fill="#38bdf8" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" text-anchor="middle">VERIFIED</text>
+      </g>
+    </g>
+  </g>
+</svg>
